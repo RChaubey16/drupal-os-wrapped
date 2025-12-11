@@ -135,10 +135,10 @@ const App: React.FC = () => {
                     isDark={theme === 'muted'}
                   />
                   
-                  <IssueGrid 
+                  {/* <IssueGrid 
                     data={userData} 
                     themeStyles={themeStyles} 
-                  />
+                  /> */}
                 </div>
 
                 <ShareFooter 

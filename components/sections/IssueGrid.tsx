@@ -46,7 +46,7 @@ const IssueGrid: React.FC<IssueGridProps> = ({ data, themeStyles }) => {
           </div> */}
         </div>
 
-        <div className={`rounded-2xl border ${themeStyles.border} overflow-hidden shadow-sm`}>
+        {/* <div className={`rounded-2xl border ${themeStyles.border} overflow-hidden shadow-sm`}>
           <button
             onClick={() => setIsOpen(!isOpen)}
             className={`w-full flex items-center justify-between p-6 ${themeStyles.card} hover:brightness-95 transition-all text-left outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500`}
@@ -139,7 +139,7 @@ const IssueGrid: React.FC<IssueGridProps> = ({ data, themeStyles }) => {
               </motion.div>
             )}
           </AnimatePresence>
-        </div>
+        </div> */}
       </div>
     </section>
   );
