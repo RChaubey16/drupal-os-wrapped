@@ -87,7 +87,7 @@ const App: React.FC = () => {
           <div className="flex justify-between items-center max-w-7xl mx-auto">
              <div 
                onClick={handleReset}
-               className="font-bold text-xl tracking-tighter mix-blend-difference text-white opacity-80 cursor-pointer pointer-events-auto"
+               className={`font-bold text-xl tracking-tighter mix-blend-difference opacity-80 cursor-pointer pointer-events-auto ${theme === 'muted' ? 'text-white' : 'text-black'}`}
              >
                DrupalOS Wrapped
              </div>

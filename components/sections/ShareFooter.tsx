@@ -78,9 +78,9 @@ const ShareFooter: React.FC<ShareFooterProps> = ({ data, themeContext, themeStyl
               <Monitor className={`w-6 h-6 ${themeContext.reduceMotion ? 'text-green-500' : themeStyles.text}`} />
             </button> */}
           </div>
-          <p className={`mt-4 text-xs ${themeStyles.textMuted}`}>
+          {/* <p className={`mt-4 text-xs ${themeStyles.textMuted}`}>
             {themeContext.reduceMotion ? "Animations disabled" : "Animations enabled"} • {themeContext.theme === 'bright' ? "Bright Mode" : "Muted Mode"}
-          </p>
+          </p> */}
         </div>
         
         <div className={`mt-12 text-sm ${themeStyles.textMuted}`}>
